@@ -52,7 +52,7 @@ class Car{
     }
     public function setNbWheels(): int
     {
-        $thid-> nbWheels = $nbWheels;
+        $this-> nbWheels = $nbWheels;
     }
 
     public function getCurrentSpeed(): int
